@@ -58,14 +58,14 @@ By following this process, users can write and test their code efficiently while
 To run the frontend:
 
 
-cd frontend
-compiler/frontend
-npm install
-npm start
+- cd frontend
+- compiler/frontend
+ - npm install
+- npm start
 ### Backend
 To run the backend:
 
-cd backend
-compiler/backend
-npm install
-nodemon app
+- cd backend
+- compiler/backend  
+- npm install
+- nodemon app
