@@ -4,7 +4,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 import { useUser } from "../context/UserContext";
 import { Wrapper } from "./Register";
 import React, { useState } from "react";
-import { generateColoredLetters } from "./Nav";
+import { generateColoredLetters } from "./Nav1";
 // export const Wrapper = styled.section`
 //   .login-container {
 //     display: flex;

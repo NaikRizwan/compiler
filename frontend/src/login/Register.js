@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import axios from "axios";
 import styled from "styled-components";
-import { generateColoredLetters } from "./Nav";
+import { generateColoredLetters } from "./Nav1";
 export const Wrapper = styled.section`
   .login-container {
     display: flex;

@@ -8,7 +8,7 @@ const generateRandomColor = () => {
 };
 
 export const generateColoredLetters = () => {
-  const text = "The Stationery Corner!";
+  const text = "Web-Based Compiler";
   const coloredLetters = text.split("").map((letter, index) => {
     const color = generateRandomColor();
     return (

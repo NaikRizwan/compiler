@@ -1,7 +1,7 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Home from "./Home";
-import Navbar from "./components/Nav";
+import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import { UserProvider } from "./context/UserContext";
 import Login from "./login/Login";
@@ -11,6 +11,7 @@ import Change from "./login/Change";
 import Forget from "./login/Forget";
 import Profile from "./login/Profile";
 import ResetPasswordForm from "./login/ResetPasswordForm";
+import Documentation from "./components/Documentation";
 const Routing = () => {
   return (
     <>
@@ -22,6 +23,7 @@ const Routing = () => {
 
         <Route path="/logout" element={<Logout />} />
         <Route path="/forget" element={<Forget />} />
+        <Route path="/documentation" element={<Documentation />} />
         <Route path="/changepass" element={<Change />} />
         <Route
           path="/reset-password/:resetToken"
@@ -35,7 +37,7 @@ function App() {
   return (
     <>
       <UserProvider>
-        <Navbar />
+        <Nav />
         <Routing />
         <Footer />
       </UserProvider>

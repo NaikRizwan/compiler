@@ -1,6 +1,5 @@
 import React from "react";
 import { FaFacebookSquare, FaInstagramSquare, FaYoutube } from "react-icons/fa";
-
 import { IoMdHome } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
@@ -16,7 +15,7 @@ const Footer = () => {
   };
 
   const generateColoredLetters = () => {
-    const text = "J&K RR TOUR!";
+    const text = "Web-Based Compiler";
     const coloredLetters = text.split("").map((letter, index) => {
       const color = generateRandomColor();
       return (
@@ -27,13 +26,14 @@ const Footer = () => {
     });
     return coloredLetters;
   };
+
   return (
     <footer className="footer">
       <section className="social-media">
         <div className="social-icons">
           <a
             style={{ textDecoration: "none" }}
-            href="https://www.facebook.com/thestationerycorner"
+            href="https://www.facebook.com/webbasedcompiler"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -41,14 +41,14 @@ const Footer = () => {
           </a>
           <a
             style={{ textDecoration: "none" }}
-            href="https://www.twitter.com/thestationerycorner"
+            href="https://www.instagram.com/webbasedcompiler"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaInstagramSquare />
           </a>
           <a
-            href="https://www.twitter.com/thestationerycorner"
+            href="https://www.youtube.com/webbasedcompiler"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -71,25 +71,25 @@ const Footer = () => {
           <h6 className="footer-heading">Support</h6>
           <p>
             <a style={{ textDecoration: "none" }} href="#!">
-              Help Centre
+              Documentation
             </a>
           </p>
           <p>
             <a style={{ textDecoration: "none" }} href="#!">
-              Cancellation options
+              FAQ
             </a>
           </p>
           <p>
             <a style={{ textDecoration: "none" }} href="#!">
-              Disability support
+              Community Forum
             </a>
           </p>
           <p>
             <a style={{ textDecoration: "none" }} href="#!">
-              Anti-discrimination
+              Contact Support
             </a>
           </p>
-          {/* Add more product links */}
+          {/* Add more support links */}
         </div>
 
         <div className="footer-column">
@@ -101,17 +101,17 @@ const Footer = () => {
           </p>
           <p>
             <a style={{ textDecoration: "none" }} href="#!">
-              Contact Us
+              Blog
             </a>
           </p>
           <p>
             <a style={{ textDecoration: "none" }} href="#!">
-              Destination
+              Tutorials
             </a>
           </p>
           <p>
             <a style={{ textDecoration: "none" }} href="#!">
-              New Features
+              Features
             </a>
           </p>
           {/* Add more useful links */}
@@ -120,16 +120,16 @@ const Footer = () => {
         <div className="footer-column">
           <h6 className="footer-heading">Contact</h6>
           <p>
-            <IoMdHome /> New York, NY 10012, US
+            <IoMdHome /> Kolkata ,india
           </p>
           <p>
-            <MdEmail /> info@example.com
+            <MdEmail /> support@webbasedcompiler.com
           </p>
           <p>
-            <FaPhoneAlt /> 7051790026
+            <FaPhoneAlt /> 705-179-0026
           </p>
           <p>
-            <FaPhoneAlt /> 6005341553
+            <FaPhoneAlt /> 600-534-1553
           </p>
           {/* Add more contact details */}
         </div>

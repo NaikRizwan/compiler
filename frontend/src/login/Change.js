@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import axios from "axios";
-import { generateColoredLetters } from "./Nav";
+import { generateColoredLetters } from "./Nav1";
 import { Wrapper } from "./Register";
 const Change = () => {
   const navigate = useNavigate();

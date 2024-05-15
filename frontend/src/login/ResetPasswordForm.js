@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios"; // Import Axios for making HTTP requests
 import { Wrapper } from "./Register";
-import { generateColoredLetters } from "./Nav";
+import { generateColoredLetters } from "./Nav1";
 const ResetPasswordForm = () => {
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");

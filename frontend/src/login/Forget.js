@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { Wrapper } from "./Register";
-import { generateColoredLetters } from "./Nav";
+import { generateColoredLetters } from "./Nav1";
 const Forget = () => {
   const navigate = useNavigate();
   const [errors, setErrors] = useState({});

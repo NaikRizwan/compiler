@@ -1,20 +1,3 @@
-// // src/components/CodeEditor.js
-// import React from "react";
-// import MonacoEditor from "@monaco-editor/react";
-
-// const CodeEditor = ({ language, value, onChange }) => {
-//   return (
-//     <MonacoEditor
-//       height="400px"
-//       language={language}
-//       value={value}
-//       onChange={onChange}
-//       theme="vs-dark"
-//     />
-//   );
-// };
-
-// export default CodeEditor;
 import React from "react";
 import MonacoEditor from "@monaco-editor/react";
 
