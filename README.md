@@ -53,6 +53,13 @@ By following this process, users can write and test their code efficiently while
 
 ## Running the Project
 
+## Downloading the Repository
+
+To download the repository from GitHub, you can use the following command:
+
+```sh
+git clone https://github.com/NaikRizwan/compiler.git
+
 ### Frontend
 
 To run the frontend:
